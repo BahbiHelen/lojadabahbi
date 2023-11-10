@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #2e2a2a;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 300%;
+    height: auto;
+}
+
+#buscar {
+    display: flex;
+    align-items: center;
+}
+
+#buscar-input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#buscar button {
+    padding: 8px 12px;
+    background-color: #555;
+    color: #413939;
+    border: none;
+    cursor: pointer;
+}
+
+#carrinho-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+#cont-carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+
+#carrinho-itens {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+}
+
+#itens-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#itens-lista li {
+    margin-bottom: 8px;
+}
+
+#preco-total {
+    display: block;
+    margin-top: 10px;
+}
+
+.limpa {
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.nome-secao {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.produto-linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.produtos {
+    flex: 1;
+    padding: 10px;
+}
+
+.produto {
+    border: 2px solid #ccc;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.imagem img {
+    width: 50px;
+    margin-left: 1050px;
+    margin-top: -150px;
+}
+
+.infos h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.infos p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #5a5454;
+}
+
+.infos button {
+    padding: 10px;
+    background-color: rgb(18, 13, 13)505;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
